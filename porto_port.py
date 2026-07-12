@@ -33,5 +33,5 @@ def scan_ports(ip, start_port, end_port):
     return open_ports
 
 target_ip = ""
-open_ports = scan_ports(target_ip, 1, 1024)
+open_ports = scan_ports(target_ip, 1, 99999)
 print(f"Open ports:
